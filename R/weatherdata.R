@@ -1,0 +1,19 @@
+#' Weekly weather data for the rice growing season in Burdwan district of West Bengal, India over 39 years
+#'
+#' Contains the date, standard meteorological week, week number and four weather variables
+#'
+#' @format A data frame with 741 rows of 7 variables
+#' \describe{
+#'      \item{Date}{starting date of data}
+#'      \item{SMW}{Standard Meteorological Week}
+#'      \item{Week}{week number of crop growing season}
+#'      \item{Max.Temperature}{Daily Maximum temperature data averaged over week}
+#'      \item{Min.Temperature}{Daily Minimum temperature data averaged over week}
+#'      \item{Precipitation}{Daily Rainfall data summed over week}
+#'      \item{Relative.Humidity}{Daily Relative.Humidity data averaged over week}
+#' }
+#'
+#' @source {NASA Power Data Access Viewer(https://power.larc.nasa.gov/data-access-viewer/)}
+#' @examples
+#' data(Burdwanweather)
+"Burdwanweather"
